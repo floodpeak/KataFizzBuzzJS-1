@@ -4,7 +4,7 @@
   "description": "practice for http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz in javascript",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/*.js"
   },
   "repository": {
     "type": "git",
