@@ -1,3 +1,8 @@
 var main = require('../main.js')
+var expect = require('chai').expect
 
-console.log(main());
+describe('try first time',function(){
+  it('try first time',function(){
+    expect(main(),true)
+  })
+})
