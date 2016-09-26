@@ -1,0 +1,19 @@
+{
+  "name": "fizzbuzzjs-1",
+  "version": "1.0.0",
+  "description": "practice for http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz in javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floodpeak/KataFizzBuzzJS-1.git"
+  },
+  "author": "Jonathan Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floodpeak/KataFizzBuzzJS-1/issues"
+  },
+  "homepage": "https://github.com/floodpeak/KataFizzBuzzJS-1#readme"
+}
