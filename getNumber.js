@@ -4,12 +4,10 @@ function isMultiple(number,base){
 
 function getNumber(realNumber){
   var maskNumber = realNumber
-  if(isMultiple(realNumber,3)){
-    if(isMultiple(realNumber,5)){
-      maskNumber = 'FizzBuzz'
-    }else{
-      maskNumber = 'Fizz'      
-    }
+  if(isMultiple(realNumber,3)&&isMultiple(realNumber,5)){
+    maskNumber = 'FizzBuzz'
+  }else if(isMultiple(realNumber,3)){
+    maskNumber = 'Fizz'
   }
   else if(isMultiple(realNumber,5)){
     maskNumber = 'Buzz'
