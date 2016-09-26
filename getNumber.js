@@ -1,5 +1,5 @@
 function getNumber(realNumber){
-  return -1
+  return realNumber
 }
 
 module.exports = getNumber
