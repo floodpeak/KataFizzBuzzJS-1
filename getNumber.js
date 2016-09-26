@@ -7,10 +7,11 @@ function getNumber(realNumber){
   if(isMultiple(realNumber,3)){
     if(isMultiple(realNumber,5)){
       maskNumber = 'FizzBuzz'
+    }else{
+      maskNumber = 'Fizz'      
     }
-    maskNumber = 'Fizz'
   }
-  if(isMultiple(realNumber,5)){
+  else if(isMultiple(realNumber,5)){
     maskNumber = 'Buzz'
   }
   return maskNumber
