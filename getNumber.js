@@ -6,12 +6,12 @@ function getNumber(realNumber){
   var maskNumber = realNumber
   if(isMultiple(realNumber,3)){
     if(isMultiple(realNumber,5)){
-      return 'FizzBuzz'
+      maskNumber = 'FizzBuzz'
     }
-    return 'Fizz'
+    maskNumber = 'Fizz'
   }
   if(isMultiple(realNumber,5)){
-    return 'Buzz'
+    maskNumber = 'Buzz'
   }
   return maskNumber
 }
