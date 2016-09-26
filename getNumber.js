@@ -3,6 +3,7 @@ function isMultiple(number,base){
 }
 
 function getNumber(realNumber){
+  var maskNumber = realNumber
   if(isMultiple(realNumber,3)){
     if(isMultiple(realNumber,5)){
       return 'FizzBuzz'
@@ -12,7 +13,7 @@ function getNumber(realNumber){
   if(isMultiple(realNumber,5)){
     return 'Buzz'
   }
-  return realNumber
+  return maskNumber
 }
 
 module.exports = getNumber
