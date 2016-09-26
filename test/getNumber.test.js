@@ -8,4 +8,7 @@ describe('number fizzbuzzed',function(){
   it('should get Fizz when it is 3', function(){
     expect(getNumber(3)).to.be.equal('Fizz')
   })
+  it('should get Buzz when it is 5', function(){
+    expect(getNumber(5)).to.be.equal('Buzz')
+  })
 })
